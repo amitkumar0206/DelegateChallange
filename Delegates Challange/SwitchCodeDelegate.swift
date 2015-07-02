@@ -1,22 +1,27 @@
 //
-//  ZipCodeDelegate.swift
+//  SwitchCodeDelegate.swift
 //  Delegates Challange
 //
 //  Created by Amit Kumar on 2015-07-02.
 //  Copyright (c) 2015 Agranee Solutions Ltd. All rights reserved.
 //
-
 import Foundation
 import UIKit
 
-class ZipCodeDelegate : NSObject, UITextFieldDelegate {
+class SwitchCodeDelegate : NSObject, UITextFieldDelegate {
+    
+    var switchButton: UISwitch!
+    
+    init(switchButton : UISwitch){
+        self.switchButton = switchButton
+    }
+    
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        
-            return false
+        return true
         
     }
     
     func textFieldDidBeginEditing(textField: UITextField) {
-        textField.text = ""
+        textField.enabled = switchButton.on
     }
 }

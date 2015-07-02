@@ -19,9 +19,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        zipCodeText.delegate = ZipCodeDelegate()
+        cashValueText.delegate = CashValueDelegate()
+        switchCodeText.delegate = SwitchCodeDelegate(switchButton : self.switchButton)
+        
     }
-    
-    
-
 }
 

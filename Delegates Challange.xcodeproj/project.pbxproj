@@ -14,6 +14,8 @@
 		354461291B45F84F00F78015 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354461271B45F84F00F78015 /* LaunchScreen.xib */; };
 		354461351B45F84F00F78015 /* Delegates_ChallangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354461341B45F84F00F78015 /* Delegates_ChallangeTests.swift */; };
 		354461401B45FC7200F78015 /* ZipCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544613F1B45FC7200F78015 /* ZipCodeDelegate.swift */; };
+		354461421B45FEDC00F78015 /* CashValueDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354461411B45FEDC00F78015 /* CashValueDelegate.swift */; };
+		354461441B45FF1D00F78015 /* SwitchCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354461431B45FF1D00F78015 /* SwitchCodeDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		354461331B45F84F00F78015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		354461341B45F84F00F78015 /* Delegates_ChallangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates_ChallangeTests.swift; sourceTree = "<group>"; };
 		3544613F1B45FC7200F78015 /* ZipCodeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeDelegate.swift; sourceTree = "<group>"; };
+		354461411B45FEDC00F78015 /* CashValueDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashValueDelegate.swift; sourceTree = "<group>"; };
+		354461431B45FF1D00F78015 /* SwitchCodeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCodeDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				3544613F1B45FC7200F78015 /* ZipCodeDelegate.swift */,
+				354461411B45FEDC00F78015 /* CashValueDelegate.swift */,
+				354461431B45FF1D00F78015 /* SwitchCodeDelegate.swift */,
 			);
 			name = delegates;
 			sourceTree = "<group>";
@@ -224,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				354461211B45F84F00F78015 /* ViewController.swift in Sources */,
+				354461441B45FF1D00F78015 /* SwitchCodeDelegate.swift in Sources */,
+				354461421B45FEDC00F78015 /* CashValueDelegate.swift in Sources */,
 				354461401B45FC7200F78015 /* ZipCodeDelegate.swift in Sources */,
 				3544611F1B45F84F00F78015 /* AppDelegate.swift in Sources */,
 			);

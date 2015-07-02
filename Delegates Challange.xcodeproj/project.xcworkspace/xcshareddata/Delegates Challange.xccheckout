@@ -12,20 +12,24 @@
 	<dict>
 		<key>400FAF67EEC135A44A2AE798AB61BE44579A1BF7</key>
 		<string>https://github.com/amitkumar0206/ColorMaker.git</string>
+		<key>DA7CE23A963DCE02065F3473B7A40260DF19BAE6</key>
+		<string>https://github.com/amitkumar0206/DelegateChallange.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Delegates Challange/Delegates Challange.xcodeproj/project.xcworkspace</string>
+	<string>Delegates Challange.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>400FAF67EEC135A44A2AE798AB61BE44579A1BF7</key>
 		<string>../../..</string>
+		<key>DA7CE23A963DCE02065F3473B7A40260DF19BAE6</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/amitkumar0206/ColorMaker.git</string>
+	<string>https://github.com/amitkumar0206/DelegateChallange.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>400FAF67EEC135A44A2AE798AB61BE44579A1BF7</string>
+	<string>DA7CE23A963DCE02065F3473B7A40260DF19BAE6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>400FAF67EEC135A44A2AE798AB61BE44579A1BF7</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iOS%20Apps</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DA7CE23A963DCE02065F3473B7A40260DF19BAE6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Delegates%20Challange</string>
 		</dict>
 	</array>
 </dict>
