@@ -12,12 +12,14 @@ class SwitchCodeDelegate : NSObject, UITextFieldDelegate {
     
     var switchButton: UISwitch!
     
-    init(switchButton : UISwitch){
-        self.switchButton = switchButton
-    }
-    
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        return true
+        
+        if switchButton.on {
+            return true
+        }
+        else {
+            return false
+        }
         
     }
     

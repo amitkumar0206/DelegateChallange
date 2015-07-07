@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>672F080B-673C-43E4-92AE-15C3A4265589</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Delegates Challange</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>400FAF67EEC135A44A2AE798AB61BE44579A1BF7</key>
@@ -16,7 +16,7 @@
 		<string>https://github.com/amitkumar0206/DelegateChallange.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Delegates Challange.xcodeproj/project.xcworkspace</string>
+	<string>Delegates Challange.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>400FAF67EEC135A44A2AE798AB61BE44579A1BF7</key>

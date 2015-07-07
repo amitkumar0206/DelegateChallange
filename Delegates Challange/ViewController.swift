@@ -15,14 +15,28 @@ class ViewController: UIViewController {
     @IBOutlet weak var switchCodeText: UITextField!
     @IBOutlet weak var switchButton: UISwitch!
     
+    let zipCodeCDelegate = ZipCodeDelegate()
+    let cashValueDelegate = CashValueDelegate()
+    let switchCodeDelegate = SwitchCodeDelegate()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        zipCodeText.delegate = ZipCodeDelegate()
-        cashValueText.delegate = CashValueDelegate()
-        switchCodeText.delegate = SwitchCodeDelegate(switchButton : self.switchButton)
+        zipCodeText.delegate = zipCodeCDelegate
+        cashValueText.delegate = cashValueDelegate
         
+        switchCodeDelegate.switchButton = self.switchButton
+        switchCodeText.delegate = switchCodeDelegate
+        
+    }
+    
+    @IBAction func switchControl(sender: UISwitch) {
+        if switchButton.on {
+            switchCodeText.enabled = true
+        }
+        else {
+            switchCodeText.enabled = false
+        }
     }
 }
 
